@@ -28,8 +28,16 @@
     display: none;
 }
 
+.conteiner__botao {
+    display: none;
+}
+
 .conteiner__botao:checked~.lista-menu {
     display: block;
     position: absolute;
     top: 100%;
+}
+
+.lista-menu__titulo {
+    color: var(--cor-titulo-e-botoes);
 }
