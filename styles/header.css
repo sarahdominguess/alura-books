@@ -18,3 +18,7 @@
     display: flex;
     align-items: center;
 }
+
+.conteiner__imagem {
+    margin: 1em;
+}
