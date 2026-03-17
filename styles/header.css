@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .cabecalho__menu-hamburguer {
@@ -20,5 +21,15 @@
 }
 
 .conteiner__imagem {
-    margin: 1em;
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+}
+
+.conteiner__botao:checked~.lista-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
 }
