@@ -1,0 +1,9 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-titulo-e-botoes: #EB9B00;
+    --cor-secundaria: #FFFFFF;
+    --cor-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-terciaria: #002F52;
+    --texto-banner: #000000d9;
+    --texto-footer: #000000;
+}
