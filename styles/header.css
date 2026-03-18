@@ -50,7 +50,7 @@
     background-color: var(--cor-secundaria);
     padding: 1.2em 1.5em;
     width: 60vw;
-    font-size: 1em;
+    font-size: var(--font-size-media);
 }
 
 .lista-menu__titulo {
