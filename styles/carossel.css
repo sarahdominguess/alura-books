@@ -42,6 +42,10 @@
     width: 50%;
 }
 
+.descricao img {
+    margin-bottom: 0.4em;
+}
+
 .descricao__titulo {
     color: var(--cor-titulo-e-botoes);
     font-size: var(--font-size-media);
@@ -62,6 +66,10 @@
     font-size: var(--font-size-pequena);
     font-weight: var(--font-weight-regular);
     line-height: 1.5;
+}
+
+.descricao__imagem {
+    margin-bottom: 2.5em;
 }
 
 .card__botoes {
