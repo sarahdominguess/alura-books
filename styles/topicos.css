@@ -29,3 +29,23 @@
     font-size: var(--font-size-pequena);
     font-weight: var(--font-weight-bold);
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos{
+        border-top: none;
+        padding: 24px 100px;
+    }
+
+    .topicos__titulo {
+        font-size: 1.5em;
+        margin: 0.5em 0 1.5em 0;
+    }
+
+    .topicos__item {
+        padding: 1.5em 2em;
+    }
+
+    .topicos__link {
+        font-size: 1.5em;
+    }
+}
