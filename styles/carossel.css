@@ -93,3 +93,38 @@
     text-align: center;
     padding: 1em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .carossel__titulo {
+        font-size: 1.625em;
+        padding-top: 2em;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-pagination {
+        margin: 1.5em 0 2.5em 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        color: var(--cor-secundaria);
+        background: var(--cor-gradiente);
+        border-radius: 50%;
+        padding: 10px;
+        height: 15px;
+        width: 15px;
+    }
+
+    .card {
+        margin: 3em;
+        width: 50%;
+        justify-self: center;
+    }
+
+    .botao__ancora{
+        width: 35%;
+    }
+}
