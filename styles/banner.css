@@ -23,6 +23,7 @@
     padding: 1.2em;
     border: 1px solid var(--cor-secundaria);
     border-radius: 24px;
+    color: var(--cor-secundaria);
 }
 
 .banner__pesquisa::placeholder {
@@ -33,4 +34,18 @@
     background-image: url(../assets/Busca.svg);
     background-repeat: no-repeat;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 6em 13em;
+    }
+
+    .banner__titulo {
+        font-size: 2.25em;
+    }
+
+    .banner__pesquisa {
+        width: 70%;
+    }
 }
