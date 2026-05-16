@@ -75,7 +75,11 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px){
+.conteiner__texto {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
     .conteiner {
         padding: 0 3em;
     }
@@ -142,5 +146,23 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .conteiner__ancora {
+        display: flex;
+        align-items: center;
+    }
+
+    .conteiner__texto {
+        display: block;
+        font-weight: var(--font-weight-regular);
+        font-size: 1.25em;
+        color: var(--texto-footer);
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }
