@@ -124,7 +124,38 @@
         justify-self: center;
     }
 
-    .botao__ancora{
-        width: 35%;
+    .botao__ancora, .descricao__imagem{
+        width: 30%;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .carossel__titulo, .descricao__titulo {
+        font-size: 2em;
+        
+    }
+
+    .descricao__titulo {
+        line-height: 1.3;
+    }
+
+    .descricao__texto {
+        font-size: var(--font-size-media);
+    }
+
+    .carossel__conteiner {
+        display: flex;
+        align-items: center;
+        margin: 2em 10em 5em;
+        gap: 3em;
+    }
+
+    .swiper {
+        width: 45%;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
 }
