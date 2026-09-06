@@ -54,3 +54,14 @@ hr {
         color: var(--cor-links-footer);
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        padding: 4em 15em;
+    }
+
+    .rodape__lista {
+        border-left: 1px solid var(--borda-footer);
+        padding-left: 1.2em;
+    }
+}
