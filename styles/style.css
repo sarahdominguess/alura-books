@@ -9,6 +9,7 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --cor-titulo-e-botoes: #EB9B00;
+    --cor-botoes-hover: #f1b53d;
     --cor-secundaria: #FFFFFF;
     --cor-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --cor-terciaria: #002F52;

@@ -45,6 +45,10 @@
         padding: 1.5em 2em;
     }
 
+    .topicos__item:hover {
+        background-color: var(--cor-botoes-hover);
+    }
+
     .topicos__link {
         font-size: 1.5em;
     }

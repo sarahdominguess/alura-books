@@ -53,6 +53,10 @@ hr {
     .rodape__lista__link {
         color: var(--cor-links-footer);
     }
+
+    .rodape__lista__link:hover {
+        color: var(--borda-footer);
+    }
 }
 
 @media screen and (min-width: 1728px) {

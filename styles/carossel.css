@@ -94,6 +94,10 @@
     padding: 1em 0;
 }
 
+.botao__ancora:hover {
+    background-color: var(--cor-botoes-hover);
+}
+
 @media screen and (min-width: 1024px) {
     .carossel__titulo {
         font-size: 1.625em;
